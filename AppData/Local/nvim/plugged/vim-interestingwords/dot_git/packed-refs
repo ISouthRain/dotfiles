@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+994668265fb2e64c375e9b90b9e094326546e055 refs/remotes/origin/add-code-of-conduct-1
+ccd114ce433835792bc2fec5f66bb74575831f1b refs/remotes/origin/add-license-1
+e59f97aca15c6180e6f3aceaf4f7b50ca04326ed refs/remotes/origin/master
+e25e6f2ad701f932c9682253b96c3c3e0ca2a165 refs/tags/0.0.0
+5f525406afda600e6b531297b07afae92ae289bb refs/tags/0.0.1
+fad6a93823621fb578a59d1a4b2dc98820e8f8ad refs/tags/0.0.2
