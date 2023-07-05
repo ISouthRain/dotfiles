@@ -1,0 +1,18 @@
+* 应用
+[[https://github.com/Genymobile/scrcpy][GitHub - Genymobile/scrcpy: Display and control your Android device]]
+** MacOS
+#+BEGIN_SRC bash
+brew install scrcpy android-platform-tools
+#+END_SRC
+* 使用
+** scrcpy 电脑控制手机
+*** 有线使用
+- scrcpy
+*** 无线使用
+- 先有线连接手机
+  - scrcpy
+  - adb tcpip 5555
+  - adb connect 手机IP:5555
+- 拨掉数据线
+  - scrcpy --tcpip=手机IP -w -m 1024
+

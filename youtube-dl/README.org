@@ -1,0 +1,6 @@
+* Install
+[[https://github.com/ytdl-org/youtube-dl][youtube-dl]]
+* Windows
+C:\Users\<UserName>\.config\youtube-dl\config
+* Unix
+~/.config/youtube-dl/config

@@ -1,0 +1,2 @@
+* 配置 ~/.config/syncthing/config.xml 文件
+127.0.0.1 改为 0.0.0.0

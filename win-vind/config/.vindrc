@@ -1,0 +1,8 @@
+set easyclick_fontcolor = F5F508
+set easyclick_fontsize = 20
+set gui_fontsize = 20
+set cmd_fontcolor = F5F508
+
+gnnoremap f <easyclick><click_left>
+gnnoremap F <easyclick>
+gnnoremap ; <to_command>

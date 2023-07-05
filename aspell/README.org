@@ -1,0 +1,8 @@
+* 配置文件路径
+** Windows
+C:\Users\Username\.aspell.conf
+
+** Unix
+~/.aspell.conf
+
+* 将 .aspell.conf 复制到对应配置文件目录

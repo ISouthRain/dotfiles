@@ -1,0 +1,4 @@
+* Wgestures-Windows端全局手势
+[[https://www.yingdev.com/projects/wgestures][WGestures&#x9F20;&#x6807;&#x624B;&#x52BF; | YingDev]]
+* 使用
+打开软件-右上角三行-导入文件

@@ -1,0 +1,10 @@
+* 使用命令
+#+BEGIN_SRC shel
+aria2c --enable-rpc --rpc-listen-all
+#+END_SRC
+* Windows
+C:\Users\<UserName>\.config\aria2\aria2.conf
+* Unix
+~/.config/aria2/aria2.conf
+* Termux
+~/.config/aria2/aria2.conf

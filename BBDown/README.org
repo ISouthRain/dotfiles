@@ -1,0 +1,4 @@
+* 应用-命令行
+[[https://github.com/nilaoda/BBDown][GitHub - nilaoda/BBDown: Bilibili Downloader. 一款命令行式哔哩哔哩下载器.]]
+* 使用
+- 直接 配置文件 复制到 程序目录 

@@ -1,0 +1,141 @@
+* 安装
+#+BEGIN_SRC poweshell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+irm get.scoop.sh -Proxy 'http://127.0.0.1:7890' -outfile 'install.ps1'
+
+.\install.ps1 -ScoopDir 'F:\App\Scoop' -ScoopGlobalDir 'F:\App\Scoop\GlobalScoopApps' -Proxy 'http://127.0.0.1:7890'
+#+END_SRC
+
+* 使用
+- 添加代理
+#+BEGIN_SRC poweshell
+scoop config proxy 127.0.0.1:7890
+# 此方法添加了config文件, 永久有效
+#+END_SRC
+- 添加软件源
+#+BEGIN_SRC powershell
+
+scoop bucket add nirsoft;
+scoop bucket add versions;
+scoop bucket add extras;
+scoop bucket add dorado https://github.com/h404bi/dorado;
+scoop bucket add nerd-fonts;
+scoop bucket add kkzzhizhou_scoop-zapps https://github.com/kkzzhizhou/scoop-zapps;
+scoop bucket add vicjax_holdVersion https://github.com/vicjax/holdVersion;
+scoop bucket add nonportable;
+
+#+END_SRC
+
+* 已下载的包
+#+BEGIN_SRC shell
+
+scoop install sudo;
+scoop install main/unzip;
+
+# 语言环境
+scoop install main/rust-gnu;
+scoop install main/rust-analyze;
+#scoop install main/nodejs;
+scoop install main/python;
+scoop install versions/mingw-winlibs-llvm-ucrt;
+scoop install main/aspell;
+
+# PDF 软件
+scoop install extras/sumatrapdf;
+scoop install extras/sioyek;
+
+# 办公专业软件工具
+#scoop install extras/kicad;
+#scoop install extras/office-tool-plus;
+#scoop install extras/libreoffice;
+
+# 社交软件
+scoop install extras/wechat;
+scoop install extras/qq;
+scoop install extras/telegram;
+
+# 桌面工具
+scoop install extras/dismplusplus;
+scoop install extras/geekuninstaller;
+scoop install extras/copyq;
+#scoop install extras/cheat-engine;
+scoop install main/everything-cli;
+scoop install extras/everything;
+sudo scoop install extras/qtranslate;
+sudo scoop install nonportable/qttabbar-np;
+scoop install extras/autohotkey;
+sudo scoop install kkzzhizhou_scoop-apps/WGestures-np;
+scoop install extras/rufus;
+#scoop install extras/diskgenius;
+
+# 密码(加密)工具类
+#scoop install main/gpg;#需要个人添加环境
+scoop install extras/keepassxc;
+
+# 网络工具类
+scoop install extras/clash-verge;
+sudo scoop install extras/tailscale;
+scoop install extras/trafficmonitor;
+
+# 命令(终端工具)
+scoop install main/git;
+scoop install main/ripgrep;
+scoop install main/scrcpy;
+scoop install main/pandoc;
+scoop install extras/windterm;
+scoop install main/yt-dlp;
+scoop install main/aria2;
+scoop install main/adb;
+scoop install main/fd;
+scoop install "https://raw.githubusercontent.com/ScoopInstaller/Main/a4e2c7eb63e5fb15b0b76187b923ff53a4bcbda4/bucket/hugo-extended.json";
+
+# 编辑器工具
+scoop install main/neovim;
+scoop install versions/emacs27.2;
+scoop install extras/vscode;
+scoop install vicjax_holdVersion/typora
+
+# 音频工具
+scoop install extras/mpv;
+scoop install main/ffmpeg;
+scoop install extras/screentogif;
+scoop install extras/obs-studio;
+scoop install kkzzhizhou_scoop-apps/lx-music;
+
+# 游戏
+# scoop iinstall versions/steam
+# scoop iinstall scoopapps/steampp
+
+# 休闲
+# scoop install extras/thunderbird
+
+#+END_SRC
+
+* 重装系统后恢复
+** 方法一
+1. 在环境变量设置中,新建一个用户变量,名字为SCOOP,值为当前scoop文件夹的地址,即:
+
+F:\App\Scoop
+2. 允许脚本执行:
+
+set-executionpolicy remotesigned -s currentuser
+3. 双击用户变量中的path,新建一个路径,填入 :
+
+%SCOOP%\shims
+4. 管理员权限powershell中运行:
+
+scoop reset *
+即可恢复所有软件的正常使用.
+
+** 方法二(此方法简单)
+1. 允许脚本执行:
+
+set-executionpolicy remotesigned -s currentuser
+2. 双击用户变量中的path,新建一个路径,填入 :
+
+F:\App\Scoop\shims
+3. 管理员权限powershell中运行:
+
+scoop reset *
+即可恢复所有软件的正常使用.

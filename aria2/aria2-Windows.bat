@@ -1,0 +1,1 @@
+aria2c.exe --enable-rpc --rpc-listen-all --https-proxy=http://127.0.0.1:7890 --http-proxy=http://127.0.0.1:7890

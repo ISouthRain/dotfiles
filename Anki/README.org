@@ -1,0 +1,15 @@
+* Anki
+** Addons
+- 85158043
+  Minimize to tray, 隐藏到托盘
+  配置插件 "hide_on_startup": true
+- 2055492159
+  Anki conneit
+- 2494384865
+  Button Colours Good Again
+  按钮颜色
+- 1210908941
+  Custom Background Image and Gear Icon
+  背景颜色
+- 1771074083
+  Review Heatmap

@@ -1,0 +1,2 @@
+- [[https://www.screentogif.com/][ScreenToGif]]
+- [[https://github.com/NickeManarin/ScreenToGif][GitHub - NickeManarin/ScreenToGif: 🎬 ScreenToGif allows you to record a selec...]]

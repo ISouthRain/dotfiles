@@ -1,0 +1,6 @@
+* 介绍
+这是一个 Android 定制桌面的软件
+* 官网
+[[https://github.com/MM2-0/Kvaesitso][GitHub - MM2-0/Kvaesitso: A FOSS Android launcher]]
+* 备份与恢复文件
+ *.kvaesitso

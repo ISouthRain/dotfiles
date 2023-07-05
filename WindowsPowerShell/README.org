@@ -1,0 +1,13 @@
+* Windows
+- 将此文件夹复制到：
+C:\Users\<UserName\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+* 常用指令
+- Aria2
+  #+begin_src powershell
+    Start-Process -FilePath "F:\App\aria2-1.36.0-win-64bit-build1\aria2c.exe" -ArgumentList "--enable-rpc --rpc-listen-all" -WindowStyle Hidden
+  #+end_src
+
+- srncthing
+  #+begin_src powershell
+Start-Process -FilePath "F:\App\syncthing-windows-amd64-v1.23.1\syncthing.exe" -WindowStyle Hidden
+  #+end_src

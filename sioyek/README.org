@@ -1,0 +1,4 @@
+* 应用链接
+[[https://github.com/ahrm/sioyek][Sioyek 阅读器]]
+* Install
+直接将文件覆盖到 sioyek 程序目录

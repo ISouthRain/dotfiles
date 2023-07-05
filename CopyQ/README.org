@@ -1,0 +1,3 @@
+* 应用
+[[https://hluk.github.io/CopyQ/][CopyQ]]
+* 直接恢复备份即可

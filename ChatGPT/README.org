@@ -1,0 +1,2 @@
+- [[https://chatbot.theb.ai/][BAI Chat]]
+- [[https://chatapi.qload.cn/][正在和AI对话]]

@@ -1,0 +1,2 @@
+* Install
+[[https://github.com/lyswhut/lx-music-desktop][lx-music 落雪音乐]]

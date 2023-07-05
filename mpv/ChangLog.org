@@ -1,0 +1,8 @@
+* ChangLog
+** firequalizer15.lua & visualizer.lua
+播放 音乐的 频率图
+** playlistmanager
+播放列表 Shift+Enter
+** Simple** & UndoRedo & SmartCopyPaste
+一些书签之类的
+Ctrl+b/b, Ctrl+r/h, Ctrl+c, Ctrl+v
